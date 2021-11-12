@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
     <div className="card" style={{width: '18rem'}}>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <Link to="/admin/posts">Posts</Link>
+          <NavLink to="/admin/posts">Posts</NavLink>
         </li>
         <li className="list-group-item">
-          <Link to="/admin/users">Users</Link>
+          <NavLink to="/admin/users">Users</NavLink>
         </li>
       </ul>
     </div>
